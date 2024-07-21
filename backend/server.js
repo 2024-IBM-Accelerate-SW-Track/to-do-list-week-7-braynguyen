@@ -25,6 +25,7 @@ app.use(cors({
     origin: 'http://localhost:3000'
 }));
 
+
 //Init code for Cloudant
 const {CloudantV1} = require('@ibm-cloud/cloudant');
 if (useCloudant)
